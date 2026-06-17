@@ -5,4 +5,4 @@ FROM httpd:latest
 COPY . /usr/local/apache2/htdocs/
 
 # Expose Apache port
-EXPOSE 80
+EXPOSE 8080
